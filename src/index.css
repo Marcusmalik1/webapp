@@ -1,0 +1,73 @@
+
+
+
+:root {
+  font-family: 'Playfair Display', serif;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #ffffff;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+a:hover {
+  color: #666;
+  transform: scale(1.2);
+}
+
+p {
+  font-family: 'Raleway', sans-serif; /* Brug Raleway-skrifttypen */
+  color: white;
+  line-height: 1.9;
+  margin: 8% 9%;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  text-align: center;
+  color: white;
+  font-family: 'Coiny', sans-serif; /* Brug Coiny-skrifttypen */
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: 2.7em;
+  line-height: 1.1;
+  text-align: center;
+  color: white;
+  font-family: 'Coiny', sans-serif; /* Brug Coiny-skrifttypen */
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 1.8em;
+  line-height: 1.1;
+  margin: 4%;
+  padding: 6% 0;
+  color: white;
+  font-family: 'Coiny', sans-serif; /* Brug Coiny-skrifttypen */
+  font-weight: lighter;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: white;
+    background-color: #171717;
+  }
+  a:hover {
+    color: #ffffff;
+    
+  }
+  .button-link {
+    background-color: #8E070E;
+  }
+
+ 
+}
+
