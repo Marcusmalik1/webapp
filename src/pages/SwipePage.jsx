@@ -24,7 +24,7 @@ export default function SwipePage() {
         I får en notifikation når i har fået et match. Nu ved i hvilken film i skal se, god fornøjelse.</p>
 
         <div className="swipe-container">
-            <Link to="/" className="button-swipe">Opret rum</Link>
+            <Link to="/room" className="button-swipe">Opret rum</Link>
         </div>
         </section>
     )

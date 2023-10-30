@@ -44,7 +44,7 @@ body, html {
   padding: 0.8em 4em;
   font-size: 1.3em;
   font-weight: 500;
-  font-family: 'Raleway', sans-serif; /* Brug Raleway-skrifttypen */
+  font-family: 'Raleway', sans-serif; 
   font-weight: bolder;
   background-color: #8E070E;
   color: white;
@@ -226,7 +226,7 @@ body, html {
   background-color: #8E070E;
   color: white;
   cursor: pointer;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8); /* Tilføj skygge efter dine præferencer */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8); 
   font-family: 'Coiny', sans-serif; 
   font-weight: lighter;
 }
@@ -283,7 +283,7 @@ body, html {
 }
 
 .button-magnet {
-  border-radius: 60px;
+  border-radius: 20px;
   padding: 3% 8%;
   font-size: 19px;
   background-color: #74A4BC;
@@ -291,7 +291,7 @@ body, html {
   cursor: pointer;
   align-items: center;
   text-align: center;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8); /* Tilføj skygge efter dine præferencer */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8); 
   font-family: 'Coiny', sans-serif; 
   font-weight: lighter;
 }
@@ -353,8 +353,6 @@ body, html {
 }
 
 
-
-
 /*---- MagnetPage ----*/
 
 .logo-magnet {
@@ -390,4 +388,86 @@ body, html {
 
 .ten-movies-text {
   margin: 0%;
+}
+
+
+
+
+/*---- Tilføj ven modal --- */
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5); 
+}
+
+
+.modal {
+  background: #171717;
+  width: 70%;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+
+.modal h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+
+.modal input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #171717;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif; 
+}
+
+
+.modal button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif; 
+  border: none;
+  border-radius: 10px;
+  width: 38%;
+  background-color: #74A4BC;
+  color: white;
+  cursor: pointer;
+}
+
+
+.modal button:first-child {
+  background-color: #74A4BC;
+}
+
+
+/*---- RoomPage ----*/
+
+.button-room {
+  border-radius: 20px;
+  padding: 3% 8%;
+  font-size: 19px;
+  background-color: #74A4BC;
+  color: white;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8); 
+  font-family: 'Coiny', sans-serif; 
+  font-weight: lighter;
 }
